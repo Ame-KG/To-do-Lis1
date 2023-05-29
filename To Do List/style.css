@@ -1,0 +1,99 @@
+body {
+	background: rgb(20, 80, 81);
+}
+
+li {
+	margin-bottom: 0.1em;
+	margin-top: 1.2rem;
+	padding: 0.8rem;
+	margin-right: 1rem;
+	border: 1px dashed rgb(20, 80, 81);
+	font-size: 20px;
+
+}
+
+h2 {
+	text-align: center;
+}
+
+p {
+	color: rgb(140, 15, 10);
+	text-align: center;
+	font-size: 12px;
+
+}
+
+.ul {
+	min-height: 450px;
+	margin-top: 1rem;
+	margin-right: 2rem;
+	margin-left: 2rem;
+	padding-bottom: 0.5rem;
+	border: 0.5px solid rgb(20, 80, 80);
+	overflow-wrap: break-word;
+}
+
+.container {
+	background: #101820;
+	color: wheat;
+	width: 90%;
+	padding-bottom: 0.5rem;
+	padding-top: 0.1rem;
+	margin: auto;
+}
+
+.inputer-div {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+
+
+.btn{
+	border-radius: 2%;
+	width:100px;
+	height: 33px;
+	background: rgb(20, 70, 20);
+	color: wheat;
+	border: 2px solid rgb(10, 40, 10);
+}
+
+.textBar {
+	width: 60%;
+	height: 25px;
+}
+
+.btn:hover {
+	background: rgb(20, 80, 20);
+	cursor: pointer;
+}
+
+.btn:active {
+	background: rgb(25,85, 20);
+	color: antiquewhite;
+}
+
+li:hover {
+	font-size: 28px;
+	padding-bottom: 1.5rem;
+	padding-top: 1.5rem;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+	color: rgb(150, 20, 20);
+	transition-duration: 0.5s;
+	cursor: pointer;
+		background: rgb(16, 24, 28);
+
+}
+
+li:not(:hover){
+	transition-duration: 0.5s;
+}
+
+li:active {
+	color: antiquewhite;
+	transition-duration: 0s;
+}
+
+
